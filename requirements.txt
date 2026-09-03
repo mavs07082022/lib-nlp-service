@@ -1,0 +1,44 @@
+# Core Web Framework
+Flask==2.3.3
+flask-cors==4.0.1
+gunicorn==21.2.0
+Werkzeug==2.3.7
+
+# NLP and ML Libraries (Lighter version for Render)
+sentence-transformers==2.2.2
+transformers==4.40.2
+tokenizers==0.19.1
+sentencepiece==0.2.2
+
+# PyTorch - CPU version (Render uses CPU)
+torch==2.1.0
+torchvision==0.16.0
+
+# Data Processing
+numpy==1.24.3
+scipy==1.11.4
+scikit-learn==1.3.0
+joblib==1.5.3
+
+# HTTP and API
+requests==2.34.2
+urllib3==2.7.0
+certifi==2024.7.4
+charset-normalizer==3.3.2
+idna==3.7
+
+# Utilities
+tqdm==4.66.4
+huggingface-hub==0.19.4
+safetensors==0.8.0
+filelock==3.13.1
+PyYAML==6.0.1
+typing_extensions==4.12.1
+packaging==24.1
+
+# Additional (remove unnecessary heavy packages)
+nltk==3.9.1
+regex==2024.7.24
+pillow==10.4.0
+fsspec==2024.6.1
+setuptools==70.3.0
