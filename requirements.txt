@@ -1,4 +1,3 @@
-# Core requirements with specific versions that work on Render
 flask==2.3.2
 flask-cors==4.0.0
 sentence-transformers==2.2.2
@@ -6,10 +5,7 @@ torch==2.0.1
 numpy==1.24.3
 requests==2.31.0
 gunicorn==21.2.0
-
-# Use pre-built wheels to avoid compilation issues
 transformers==4.30.2
 tokenizers==0.13.3
 tqdm==4.66.1
-scikit-learn==1.3.0
-scipy==1.10.1
+huggingface-hub==0.15.1
